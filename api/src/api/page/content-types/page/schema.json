@@ -46,7 +46,17 @@
         "blocks.related-articles",
         "blocks.related-restaurants",
         "blocks.team",
-        "blocks.testimonial"
+        "blocks.testimonial",
+        "blocks.hero-small",
+        "blocks.text-img",     
+        "blocks.icons",
+        "blocks.maps",
+        "blocks.contact",
+        "blocks.case-studies",
+        "blocks.media",
+        "blocks.cohort",
+        "blocks.journey",
+        "blocks.tabs"
       ],
       "pluginOptions": {
         "i18n": {

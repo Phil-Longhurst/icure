@@ -1,11 +1,9 @@
-import Header from '../../shared/Header';
-import FeatureCards from './feature-cards';
+import styles from  '../../../styles/components/features.module.scss'
 
-const Features = ({ header, cards }) => {
+const Features = ({ cards, title }) => {
   return (
-    <div className="bg-gray-50 pb-24">
-      <Header {...header} />
-      <FeatureCards cards={cards} />
+    <div className={styles.outcontainer}>
+      <h2>{title}</h2>
     </div>
   );
 };

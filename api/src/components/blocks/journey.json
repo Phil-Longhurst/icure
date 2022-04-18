@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_blocks_journeys",
+  "info": {
+    "displayName": "Journey",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

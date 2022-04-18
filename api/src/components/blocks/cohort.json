@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_blocks_cohorts",
+  "info": {
+    "displayName": "Cohort",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

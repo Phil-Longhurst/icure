@@ -1,3 +1,6 @@
+import CaseStudies from '../../blocks/CaseStudies';
+import Contact from '../../blocks/Contact';
+import Media from '../../blocks/Media';
 import Cta from '../../blocks/Cta';
 import CtaCommandLine from '../../blocks/CtaCommandLine';
 import Faq from '../../blocks/Faq';
@@ -10,6 +13,12 @@ import RelatedRestaurants from '../../blocks/RelatedRestaurants';
 import Team from '../../blocks/Team';
 import Testimonial from '../../blocks/Testimonial';
 import RichContent from '../../pages/restaurant/RichContent';
+import HeroSmall from '../../blocks/HeroSmall';
+import TextImg from '../../blocks/TextImg';
+import Maps from '../../blocks/Maps';
+import Icons from '../../blocks/Icons';
+import Cohort from '../../blocks/Cohorts';
+import Journey from '../../blocks/Journey';
 
 const getBlockComponent = ({ __component, ...rest }, index) => {
   let Block;
@@ -51,6 +60,33 @@ const getBlockComponent = ({ __component, ...rest }, index) => {
       break;
     case 'blocks.features-with-images':
       Block = FeaturesWithImages;
+      break;
+    case 'blocks.media':
+      Block = Media;
+      break;
+    case 'blocks.case-studies':
+      Block = CaseStudies;
+      break;
+    case 'blocks.contact':
+      Block = Contact;
+      break;
+    case 'blocks.hero-small':
+      Block = HeroSmall;
+      break;
+    case 'blocks.text-img':
+      Block = TextImg;
+      break;
+    case 'blocks.maps':
+      Block = Maps;
+      break;
+    case 'blocks.icons':
+      Block = Icons;
+      break;
+    case 'blocks.cohort':
+      Block = Cohort;
+      break;
+    case 'blocks.journey':
+      Block = Journey;
       break;
   }
 

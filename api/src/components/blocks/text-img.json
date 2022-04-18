@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_blocks_text_imgs",
+  "info": {
+    "displayName": "Text Img",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

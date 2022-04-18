@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_blocks_media",
+  "info": {
+    "displayName": "Media",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
