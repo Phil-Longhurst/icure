@@ -1,21 +1,16 @@
 import delve from 'dlv';
-import Logo from './logo';
 import Nav from './nav';
+import styles from  '../../../styles/nav.module.scss'
 
 const Navigation = ({ navigation, pageData, type }) => {
   return (
-    <header className="text-gray-600 bg-white body-font border-b-2">
+    <header className={styles.nav}>
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <Logo
-          button={delve(navigation, 'leftButton')}
-          locale={delve(pageData, 'attributes.locale')}
-        />
-
+        <h1>iCURe</h1>
         <Nav
           links={delve(navigation, 'links')}
           locale={delve(pageData, 'attributes.locale')}
         />
-
       </div>
     </header>
   );

@@ -4,6 +4,7 @@ import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import { getStrapiMedia } from "../../../../utils";
 import Container from "../../../shared/Container";
+import styles from  '../../../../styles/blog.module.scss'
 
 const gfm = require("remark-gfm");
 
@@ -15,7 +16,7 @@ const ArticleContent = ({ attributes }) => {
   const locale = delve(attributes, "locale");
   return (
     <Container>
-      <section className="text-gray-600 body-font py-24">
+      <section className={styles.blog}>
         <div className="container px-5 py-2 mx-auto flex flex-col justify-center items-center">
           <h1 className="font-black sm:text-5xl text-4xl  mb-4 text-gray-900 text-center">
             {title}
@@ -31,7 +32,7 @@ const ArticleContent = ({ attributes }) => {
               />
             </div>
           </div>
-          
+
           <div className="markdown-body shadow-lg rounded-xl lg:w-3/6 w-full md:p-12 p-6 mt-2 bg-white">
             <ReactMarkdown
               children={content}
@@ -44,14 +45,7 @@ const ArticleContent = ({ attributes }) => {
               }}
             ></ReactMarkdown>
           </div>
-          <Link href={`/blog?lang=${locale}`}>
-            <button
-              type="button"
-              className="ml-2 py-4 mt-8 px-6 bg-secondary hover:bg-secondary-darker text-white w-1/8 text-center text-base font-semibold shadow-sm rounded-md"
-            >
-              Back to articles
-            </button>
-          </Link>
+    
         </div>
       </section>
     </Container>
