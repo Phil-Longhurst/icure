@@ -2,12 +2,22 @@
   "collectionName": "components_blocks_journeys",
   "info": {
     "displayName": "Journey",
-    "icon": "ambulance"
+    "icon": "ambulance",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "rows": {
+      "displayName": "row",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.row"
     }
   }
 }
