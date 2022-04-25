@@ -56,7 +56,7 @@
         }
       },
       "type": "richtext",
-      "required": true
+      "required": false
     },
     "blocks": {
       "pluginOptions": {
@@ -68,7 +68,25 @@
       "components": [
         "blocks.related-articles",
         "blocks.faq",
-        "blocks.cta-command-line"
+        "blocks.cta-command-line",
+        "blocks.case-studies",
+        "blocks.cohort",
+        "blocks.contact",
+        "blocks.cta",
+        "blocks.features-with-images",
+        "blocks.features",
+        "blocks.hero-small",
+        "blocks.hero",
+        "blocks.icons",
+        "blocks.journey",
+        "blocks.maps",
+        "blocks.media",
+        "blocks.pricing",
+        "blocks.related-restaurants",
+        "blocks.tabs",
+        "blocks.team",
+        "blocks.testimonial",
+        "blocks.text-img"
       ],
       "required": false
     },
