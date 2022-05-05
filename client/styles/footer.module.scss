@@ -5,14 +5,14 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        max-width: 1300px;
+        margin: auto;
+        padding: 100px 0;
         @media (max-width: 768px) {
             text-align: center;
             justify-content: center;
         }
     }
-    a:hover {
-        transition: ease 0.2s;
-    }  
     // bottom bar sections
     &__terms {
         width: 100%;
@@ -75,6 +75,13 @@
         } 
         input[type="email"] {
             margin-right: 20px;
+            border: 2px solid #B892FF;
+            padding: 10px 40px; 
+        }
+        input[type="submit"] {
+            background-color: #6C30DB;
+            padding: 12px 30px;
+            color: white;
         }
     }
     // column 2
