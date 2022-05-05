@@ -4,6 +4,7 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import "tailwindcss/tailwind.css";
 import { getStrapiURL } from "../utils";
 import { getLocalizedParams } from "../utils/localize";
+import  '../styles/styles.css'
 
 const queryClient = new QueryClient();
 
