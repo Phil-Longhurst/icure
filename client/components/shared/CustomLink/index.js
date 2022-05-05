@@ -1,15 +1,15 @@
 import Link from 'next/link';
 
-const CustomLink = ({ label, href, locale, target, isExternal }) => {
-  if (isExternal) {
+const CustomLink = ({ label, href, locale, target, isChild, hasChildren  }) => {
+  if (hasChildren) {
     return (
-      <Link href={href}>
+      <Link href={href} className="hasChildren">
         <a target={target}>{label}</a>
       </Link>
     );
   } else {
     return (
-      <Link href={`${href}?lang=${locale || 'en'}`}>
+      <Link href={href}>
         <a target={target}>{label}</a>
       </Link>
     );
