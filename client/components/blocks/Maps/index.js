@@ -9,8 +9,8 @@ const Maps = ({ image }) => {
         <img
           src={getStrapiMedia(delve(image, "data.attributes.url"))}
           alt={delve(image, "data.attributes.alternativeText")}
-          className="relative mx-auto shadow-lg rounded-lg w-auto"
-      />
+          className=""
+        />
       <div className={styles.container}>
         <div className={styles.box}>   
           {/* name */}

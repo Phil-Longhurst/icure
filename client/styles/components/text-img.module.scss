@@ -1,8 +1,5 @@
-.features {
+.textImg {
     padding: 100px 0;
-    .item {
-        width: 23.5%;
-    }
     .container {
         max-width: 1100px;
         display: flex;
@@ -10,27 +7,10 @@
         margin: auto;
         justify-content: space-between;
     }
-    h3 {
-        font-size: 35px;
-        margin: 16px 0 15px 0;
+    .left {
+        width: 45%;
     }
-    p {
-        font-size: 18px; 
-    }
-    img {
-        border-radius: 0;
-        width: 100%;
-        height: 273px;
-        object-fit: cover; 
-    }
-}
-.outcontainer {
-    max-width: 1100px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    justify-content: space-between;
-    h2 {
-        font-size: 44px;
+    .right {
+        width: 45%;
     }
 }

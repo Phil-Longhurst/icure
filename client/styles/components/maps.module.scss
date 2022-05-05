@@ -1,4 +1,9 @@
 .maps {
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* margin: auto; */
+    justify-content: center;
     img {
         position: absolute;
         object-fit: cover;
@@ -24,6 +29,7 @@
         width: 100%;
         height: auto;
         padding: 40px;
+        position: absolute;
         p {
             color: white;
             margin: 23px 0 0 0;
