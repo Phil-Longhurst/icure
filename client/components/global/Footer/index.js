@@ -10,7 +10,7 @@ const Footer = ({ footer, pageData }) => {
   const socialNetworks = delve(footer, 'socialNetworks');
 
   return (
-			<footer className={styles.footer}>	
+			<footer className={styles.footer}>	 
         <div className={styles.container}>
           {/* news col 1 */}
           <div className={styles.footer__news}>
